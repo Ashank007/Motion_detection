@@ -1,0 +1,19 @@
+# Ignore environment directories
+bin/
+include/
+lib/
+lib64/
+
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore virtual environment directory if named `venv`
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore config files
+*.cfg
